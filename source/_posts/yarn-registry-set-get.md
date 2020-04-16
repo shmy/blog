@@ -1,6 +1,7 @@
 ---
 title: yarn替换仓库源到淘宝镜像
 date: 2016-12-16 12:01:14
+categories: ["frontend", "summaries"]
 tags: ["node", "yarn"]
 ---
 ### 什么是Yarn？

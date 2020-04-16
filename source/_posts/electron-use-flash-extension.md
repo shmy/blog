@@ -1,6 +1,7 @@
 ---
 title: electron使用flash插件
 date: 2016-10-16 11:52:35
+categories: ["frontend", "summaries"]
 tags: ["electron", "node"]
 ---
 
