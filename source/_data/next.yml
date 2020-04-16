@@ -111,3 +111,11 @@ menu:
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+local_search:
+  enable: true
