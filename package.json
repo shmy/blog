@@ -27,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run build && npm run deploy"
+      "pre-push": "npm run clean && npm run build && npm run deploy"
     }
   }
 }
