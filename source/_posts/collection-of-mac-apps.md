@@ -1,8 +1,8 @@
 ---
 title: 个人收藏的MacOS好用的软件
 date: 2020-04-16 17:35:35
-categories: ["frontend", "summaries"]
-tags: ["electron", "node"]
+categories: ["MacOS"]
+tags: ["software", "app"]
 
 ---
 

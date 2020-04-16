@@ -2,7 +2,7 @@
 title: 分享几个电影采集网站的接口和使用方式
 date: 2020-04-16 16:53:44
 categories: ["backend", "summaries"]
-tags: ["nginx"]
+tags: ["crawler"]
 ---
 
 ## 注解
