@@ -121,6 +121,7 @@ local_search:
   enable: true
 scheme: Mist
 
+minify: true
 mediumzoom: true
 lazyload: true
 pangu: true
@@ -129,3 +130,17 @@ pace:
   enable: true
 quicklink:
   enable: false
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+  post: true
+  language: deed.zh
+
+reading_progress:
+  enable: true
+  color: "#37c6c0"
+  height: 2px
+github_banner:
+  enable: true
+  permalink: https://github.com/shmy
+  title: Follow me on GitHub
