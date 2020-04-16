@@ -7,6 +7,8 @@ tags: ["electron", "node"]
 
 ## 需求
 > 最近有个需求是使用Electron开发一个Windows直播的客户端，使用Flash进行播放相关功能，但是Electron的Flash功能需要插件支持，折腾好久才搞定，做个记录。  
+<!-- more -->
+
 ### 创建项目
 #### 安装electron  
 ```bash

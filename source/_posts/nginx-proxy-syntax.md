@@ -12,6 +12,8 @@ location /proxy/ {
 ```
 > 代理到URL：http://127.0.0.1/test.html
 
+<!-- more -->
+
 
 ### 第二种：
 ```conf

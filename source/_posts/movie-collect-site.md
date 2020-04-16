@@ -11,6 +11,8 @@ tags: ["nginx"]
 + M3U8 （返回的视频格式为M3U8）
 + XML（接口通讯格式为XML）
 
+<!-- more -->
+
 ## 最大资源网
 
 > 接口地址：http://www.zdziyuan.com/inc/s_api_m3u8.php

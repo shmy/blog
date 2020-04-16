@@ -119,3 +119,13 @@ search:
   limit: 10000
 local_search:
   enable: true
+scheme: Mist
+
+mediumzoom: true
+lazyload: true
+pangu: true
+pjax: true
+pace:
+  enable: true
+quicklink:
+  enable: false
