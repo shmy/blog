@@ -100,5 +100,4 @@ theme: next
 deploy:
   type: 'git'
   repo: https://github.com/shmy/shmy.github.io
-  branch: gh-pages
-  message: 'updated'
+  branch: master
