@@ -37,7 +37,6 @@ $hexHeight: 130px;
   width: $hexWidth;
   height: $hexHeight;
   background: #64c7cc;
-  margin-left: $gapWidth;
   -webkit-clip-path: polygon(0 25%,50% 0,100% 25%,100% 75%,50% 100%,0 75%);
   clip-path: polygon(0 25%,50% 0,100% 25%,100% 75%,50% 100%,0 75%);
 }
