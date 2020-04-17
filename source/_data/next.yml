@@ -174,3 +174,6 @@ gitalk:
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available value: en, es-ES, fr, ru, zh-CN, zh-TW
   language: zh-CN
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
