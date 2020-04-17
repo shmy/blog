@@ -156,8 +156,8 @@ reward_settings:
   #comment: Donate comment here
 
 reward:
-  wechatpay: /images/wechatpay.png
-  alipay: /images/alipay.png
+  wechatpay: /images/wechat.jpg
+  alipay: /images/alipay.jpg
 
 
 # Gitalk
