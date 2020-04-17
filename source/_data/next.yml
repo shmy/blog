@@ -144,3 +144,33 @@ github_banner:
   enable: true
   permalink: https://github.com/shmy
   title: Follow me on GitHub
+post_meta:
+  updated_at:
+    enable: false
+# Reward (Donate)
+reward_settings:
+  # If true, reward would be displayed in every article by default.
+  # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
+  enable: true
+  animation: false
+  #comment: Donate comment here
+
+reward:
+  wechatpay: /images/wechatpay.png
+  alipay: /images/alipay.png
+
+
+# Gitalk
+# Demo: https://gitalk.github.io
+gitalk:
+  enable: true
+  github_id: shmy # Github repo owner
+  repo: blog # Repository name to store issues
+  client_id: c6c0d3a3fec2c780c8d8 # Github Application Client ID
+  client_secret: a5d60cc68dd2b419e91ecbac3927e4e591fd2209 # Github Application Client Secret
+  admin_user: shmy  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  distraction_free_mode: true # Facebook-like distraction free mode
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available value: en, es-ES, fr, ru, zh-CN, zh-TW
+  language: zh-CN
