@@ -102,7 +102,7 @@ v.slugify('What a wonderful world');     // => 'what-a-wonderful-world'
 
 > 加密标准的JavaScript库。
 
-### 字节格式化
+## 字节格式化
 
 ### [pretty-bytes](https://github.com/sindresorhus/pretty-bytes)
 
