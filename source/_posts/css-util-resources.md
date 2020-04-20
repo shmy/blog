@@ -1,5 +1,5 @@
 ---
-title: 推荐一些好用的CSS工具网站
+title: 收集一些好用的CSS工具网站【不定时更新】
 date: 2020-04-17 18:38:28
 tags: ["css", "frontend"]
 ---
