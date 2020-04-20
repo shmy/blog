@@ -113,6 +113,16 @@ https://flatuicolors.com/
 
 
 
+### 中国传统色谱
+
+> 提供多种中国传统配色，十分亮眼；
+
+![JlUT1J.png](https://s1.ax1x.com/2020/04/20/JlUT1J.png)
+
+http://zhongguose.com/
+
+
+
 ## 渐变
 
 ### Coolhue
