@@ -6,7 +6,7 @@
     "build": "hexo generate --config source/_data/next.yml",
     "clean": "hexo clean --config source/_data/next.yml",
     "deploy": "hexo deploy --config source/_data/next.yml",
-    "server": "hexo server --config source/_data/next.yml"
+    "server": "hexo server --config source/_data/next.yml --port 5001"
   },
   "hexo": {
     "version": "4.2.0"
