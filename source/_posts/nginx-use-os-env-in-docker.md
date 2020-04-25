@@ -119,7 +119,7 @@ I'm student, Welcome to my school
 
 > 接下来我们来改造我们的`nginx.conf`，我们希望在容器启动时，读取环境变量，利用`envsubst`替换`nginx.conf`中的变量，然后生成新的`nginx`配置文件后再启动`nginx`。
 
-1. 把 原来的`nginx.conf`重名为`nginx.template`，并将`proxy_pass`的值设置为环境变量：
++ 把 原来的`nginx.conf`重名为`nginx.template`，并将`proxy_pass`的值设置为环境变量：
 
 ```conf
 server {
@@ -138,7 +138,8 @@ server {
 }
 ```
 
-	2. 修改`Dockerfile`，将`ngxin.template` 拷贝到 `/etc/nginx/conf.d`， 并设置`WORKDIR`为`/etc/nginx/conf.d`
+
++ 修改`Dockerfile`，将`ngxin.template` 拷贝到 `/etc/nginx/conf.d`， 并设置`WORKDIR`为`/etc/nginx/conf.d`
 
 ```dock
 FROM nginx:stable-alpine
@@ -161,8 +162,8 @@ docker run --name our-frontend-service -d -e BACKEND_URL=http://127.0.0.1:4200 o
 > 结果发现启动报错：
 
 ```bash
-2020/04/25 02:45:44 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/nginx.conf:24
-nginx: [emerg] invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/nginx.conf:24
+2020/04/25 02:45:44 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/nginx.conf:10
+nginx: [emerg] invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/nginx.conf:10
 ```
 
 > 我们来`DEBUG`一下
