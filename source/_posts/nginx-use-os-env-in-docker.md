@@ -1,7 +1,8 @@
 ---
 title: nginx在docker中使用环境变量
 date: 2020-04-25 10:07:32
-tags:
+categories: ["backend", "summaries"]
+tags: ["nginx", "docker"]
 ---
 
 ## 前言
